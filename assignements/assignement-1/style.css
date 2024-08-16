@@ -47,6 +47,7 @@ body {
 .projects > h2 {
     margin-bottom: 10px;
 }
+
 .card {
     background: white;
     border-radius: 8px;
@@ -74,8 +75,8 @@ body {
 .hero {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     padding-top: 15rem;
-    align-items: center;
     color: white;
 }
 
@@ -86,4 +87,10 @@ body {
 
 .hero p {
     font-size: 1.5rem;
+}
+
+@media screen and (min-width: 700) {
+    .hero-slogan {
+        margin-bottom: 20px;
+    }
 }
